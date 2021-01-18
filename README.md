@@ -19,7 +19,7 @@ Per fer les proves utilizem diferents **frameworks**.
 
 ### Model en V
 
-- Es un model molt semblant a el model en cascada.
+Es un model molt semblant a el model en cascada.
 - Visió jerarquitzada amb diferents nivells.
 - Els nivells superiors indiquen major abstracció.
 - Els nivells inferiors indiquen major nivell de detall.
