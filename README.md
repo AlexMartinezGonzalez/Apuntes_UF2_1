@@ -85,3 +85,77 @@ Tenim dos tipus:
 - Proves de sistema
 - Proves alfa i beta
 - Proves d'acceptació (validació per part de client)
+
+
+### PROVES NO FUNCIONALS
+- Proves d'usabilitat
+- Proves de rendiment
+- Proves d'estrés
+- Proves de seguretat
+- Proves de compatibilitat
+- Proves de portabilitat
+
+### MECANISMES DE PROVA
+Tenim dos tipus:
+- **Manual:** Mitjançant proves realitzades per personal de l'empresa o extern.
+- **Automàtic:** Mitjançant programari que executa codi de forma automatitzada i compara els resultats obtinguts i els resultats esperats.
+
+
+## INTEGRACIÓ
+### FORMES D'INTEGRACIÓ
+- Integració Big Bang
+- Integració Descendent
+- Integració Ascendent
+- Integració Contínua (**CI**)
+
+### SERVIDORS D'INTEGRACIÓ CONTINUA
+    CI: Integració continua
+    CD: Entrega continua
+    
+- Jenkins
+- Bamboo
+- TravisCI
+- CircleCI
+
+### COBERTURA DEL CODI
+Mesura que indica el percentatge de codi que ha estat executat durant les proves.
+- Es recomana que sigui lo mñes proper a 100%.
+- Si és **de l'100%** llavors s'ha executat tot el codi font durant les proves.
+- Si és **menor de l'100%** llavors existeix codi font que no s'ha executat durant les proves.
+- És possible realitzar la cobertura tant des del IDE com des d'un servei web apropiat.
+
+
+## QUALITAT
+### CONTROL DE QUALITAT
+Objectiu:
+- Aconseguir una mesura de la qualitat d'un producte
+Per aconseguir-ho necessitem fer:
+- Proves
+
+### QUALITAT DE L'PROCÉS / PRODUCTE (QA / QC)
+- **QA:** és un conjunt d'activitats per a garantir la qualitat en els processos mitjançant els quals es desenvolupen els productes.
+- **QC:** és un conjunt d'activitats per a garantir la qualitat dels productes. Les activitats se centren en identificar defectes en els productes reals produïts.
+
+
+### FACTORS DE QUALITAT
+Els factors de qualitat s'agrupen en **3 àmbits**:
+- Operació de l'producte
+- Revisió del producte
+- Transició del producte
+
+**Operació del Producte**
+- Correcció
+- Fiabilitat
+- Eficiència
+- Seguretat
+- Facilitat d'ús
+
+**Revisió del Producte**
+- Mantenibilitat
+- Flexibilitat
+- Facilitat de prova
+
+**Transició del producte**
+- Portabilitat
+- Reusabilitat
+- Interoperativitat
